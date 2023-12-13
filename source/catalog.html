@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Кэт энерджи</title>
+  <title>Каталог</title>
 </head>
 
 <body class="page__body">
@@ -20,12 +20,12 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--current">
-            <a>
+            <a href="index.html">
               ГЛАВНАЯ
             </a>
           </li>
           <li class="site-list__item">
-            <a href="catalog.html">
+            <a>
               КАТАЛОГ ПРОДУКЦИИ
             </a>
           </li>
@@ -39,102 +39,222 @@
     </nav>
   </header>
   <main class="main-box">
-    <header class="page-header">
-      <div class="page-header__box">
-        <h1 class="page-header__title">Функциональное <br> питание для котов</h1>
-        <p class="page-header__subtitle">Занялся собой? Займись котом!</p>
-        <a class="page-header__button" href="#">ПОДОБРАТЬ ПРОГРАММУ</a>
-      </div>
-      <div class="jar-cat-energy-box">
-
-      </div>
-    </header>
-    <section class="recommendations-catalogs">
-      <h2 class="visually-hidden">выбор каталогов</h2>
-      <div class="catalog-selection">
-        <div class="catalog-selection___slim catalog-selection___slim--sit-cat">
-          <h2 class="slim-title">ПОХУДЕНИЕ</h2>
-          <p class="slim-descriptiop">
-            Ваш кот весит больше собаки и<br>почти утратил способность лазить<br>
-            по деревьям? Пора на диету! Cat<br>
-            Energy Slim поможет вашему<br>
-            питомцу сбросить лишний вес.</p>
-          <a class="catalog-slim" href="">КАТАЛОГ SLIM</a>
-        </div>
-        <div class="catalog-selection___pro catalog-selection___pro--walking-at">
-          <p class="slim-description">
-            Заработать авторитет среди<br>
-            дворовых котов и даже собак?<br>
-            Серия Cat Energy Pro поможет<br>
-            вашему коту нарастить<br>
-            необходимые мышцы!</p>
-          <a class="catalog-pro" href="#">КАТАЛОГ PRO</a>
-        </div>
-      </div>
-    </section>
-    <section class="advantages">
-      <div class="advantages__box">
-        <h2 class="advantages__title">как это работает</h2>
-        <ul class="advantages__list">
-          <li class="advantages__item advantages__item--useful advantages__item--number-one">
-            <p class="advantages__item-description">
-              Функциональное питание<br>
-              содержит только полезные<br>
-              питательные вещества.
+    <div class="catalog">
+      <h1 class="catalog__title">Каталог продукции</h1>
+      <ul class="catalog__list">
+        <li class="catalog__item">
+          <img src="#" alt="маленькая баночка с питанием для котов со вкусом курицы. ">
+          <h2 class="catalog__title">
+            CAT ENERGY<br>
+            PRO 500 Г
+          </h2>
+          <div class="price-and-more">
+            <p class="price-and-more__text">
+              Масса<br>
+              Вкус<br>
+              Цена<br>
             </p>
-          </li>
-          <li class="advantages__item advantages__item--powder advantages__item--number-two">
-            <p class="advantages__item-description">
-              Выпускается в виде порошка,<br>
-              который нужно лишь залить<br>
-              кипятком и готово.
-            </p>
-          </li>
-          <li class="advantages__item advantages__item--food advantages__item--number-three">
-            <p class="advantages__item-description">
-              Замените один-два приема<br>
-              обычной еды на наше<br>
-              функциональное питание.
-            </p>
-          </li>
-          <li class="advantages__item advantages__item--time advantages__item--number-four">
-            <p class="advantages__item-description">
-              Уже через месяц<br>
-              наслаждайтесь изменениями<br>
-              к лучшему вашего питомца!
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="live-example">
-      <div class="live-example__box">
-        <h2 class="live-example__title">Живой пример</h2>
-        <p class="live-example__description">
-          Борис сбросил 5 кг за 2 месяца, просто<br>
-          заменив свой обычный корм на Cat Energy<br>
-          Slim. Отличный результат без изнуряющих<br>
-          тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов<br>
-          в день.
-        </p>
-        <div class="live-example__result-box">
-          <div class="live-example__result-weight-box result-weight">
-            <p class="result-weight__result">5 КГ</p>
-            <p class="result-weight__title">снижение<br>веса</p>
           </div>
-          <div class="live-example__result-time-box result-time">
-            <p class="result-time__result">60 ДНЕЙ</p>
-            <p class="result-time__title">затрачено<br>времени</p>
+          <div class="price-and-more">
+            <b class="price-and-more__value-text">
+              500 Г<br>
+              Курица<br>
+              700 ₽
+            </b>
           </div>
-        </div>
-        <p class="live-example__prise">ЗАТРАТЫ НА ПИТАНИЕ: 15 000 РУБ.</p>
-        <div class="live-example__slides">
-          <img class="slides-before" src="#" alt="до питания.">
-          <img class="slides-after" src="#" alt="после питания.">
-        </div>
-      </div>
-    </section>
-
+          <button class="catalog__button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="catalog__item">
+          <img src="#" alt="большая баночка с питанием для котов со вкусом курицы.">
+          <h2 class="catalog__title">
+            CAT ENERGY<br>
+            PRO 1000 Г
+          </h2>
+          <div class="price-and-more">
+            <p class="price-and-more__text">
+              Масса<br>
+              Вкус<br>
+              Цена<br>
+            </p>
+          </div>
+          <div class="price-and-more">
+            <b class="price-and-more__value-text">
+              1000 Г<br>
+              Курица<br>
+              1000 ₽
+            </b>
+          </div>
+          <button class="catalog__button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="catalog__item">
+          <img src="#" alt="маленькая баночка с питанием для котов со вкусом рыбы">
+          <h2 class="catalog__title">
+            CAT ENERGY<br>
+            PRO 500 Г
+          </h2>
+          <div class="price-and-more">
+            <p class="price-and-more__text">
+              Масса<br>
+              Вкус<br>
+              Цена<br>
+            </p>
+          </div>
+          <div class="price-and-more">
+            <b class="price-and-more__value-text">
+              500 Г<br>
+              Рыба<br>
+              700 ₽
+            </b>
+          </div>
+          <button class="catalog__button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="catalog__item">
+          <img src="#" alt="большая баночка с питанием для котов со вкусом рыбы. ">
+          <h2 class="catalog__title">
+            CAT ENERGY<br>
+            PRO 1000 Г
+          </h2>
+          <div class="price-and-more">
+            <p class="price-and-more__text">
+              Масса<br>
+              Вкус<br>
+              Цена<br>
+            </p>
+          </div>
+          <div class="price-and-more">
+            <b class="price-and-more__value-text">
+              1000 Г<br>
+              Рыба<br>
+              1000 ₽
+            </b>
+          </div>
+          <button class="catalog__button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="catalog__item">
+          <img src="#" alt="маленькая баночка с питанием для котов со вкусом гречки">
+          <h2 class="catalog__title">
+            CAT ENERGY<br>
+            SLIM 500 Г
+          </h2>
+          <div class="price-and-more">
+            <p class="price-and-more__text">
+              Масса<br>
+              Вкус<br>
+              Цена<br>
+            </p>
+          </div>
+          <div class="price-and-more">
+            <b class="price-and-more__value-text">
+              500 Г<br>
+              Гречка<br>
+              700 ₽
+            </b>
+          </div>
+          <button class="catalog__button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="catalog__item">
+          <img src="#" alt="большая баночка с питанием для котов со вкусом гречки. ">
+          <h2 class="catalog__title">
+            CAT ENERGY<br>
+            SLIM 1000 Г
+          </h2>
+          <div class="price-and-more">
+            <p class="price-and-more__text">
+              Масса<br>
+              Вкус<br>
+              Цена<br>
+            </p>
+          </div>
+          <div class="price-and-more">
+            <b class="price-and-more__value-text">
+              1000 Г<br>
+              Курица<br>
+              1000 ₽
+            </b>
+          </div>
+          <button class="catalog__button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="catalog__item">
+          <img src="#" alt="маленькая баночка с питанием для котов со вкусом риса">
+          <h2 class="catalog__title">
+            CAT ENERGY<br>
+            SLIM 500 Г
+          </h2>
+          <div class="price-and-more">
+            <p class="price-and-more__text">
+              Масса<br>
+              Вкус<br>
+              Цена<br>
+            </p>
+          </div>
+          <div class="price-and-more">
+            <b class="price-and-more__value-text">
+              500 Г<br>
+              Рис<br>
+              700 ₽
+            </b>
+          </div>
+          <button class="catalog__button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+      </ul>
+    </div>
+    <div class="show">
+      <h2 class="show__title">ПОКАЗАТЬ ЕЩЕ 100500 ТОВАРОВ</h2>
+      <p class="show__subtitle">На самом деле вкусов гораздо больше!</p>
+      <button class="show__button" type="button">ПОКАЗАТЬ ВСЕ</button>
+    </div>
+    <div class="additional-catalog">
+      <h2 class="additional-catalog__title">Дополнительные товары</h2>
+      <ul class="additional-catalog__list">
+        <li class="additional-catalog__item">
+          <h3 class="additional-catalog__item-title">САХАРОЗАМЕНИТЕЛЬ</h3>
+          <p class="additional-catalog__item-subtitle">1 упаковка (100 г)</p>
+          <b class="additional-catalog__item-price">200 ₽</b>
+          <button class="additional-catalog__item-button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="additional-catalog__item">
+          <h3 class="additional-catalog__item-title">ПИТЬЕВАЯ ВОДА</h3>
+          <p class="additional-catalog__item-subtitle">5 литров</p>
+          <b class="additional-catalog__item-price">50 ₽</b>
+          <button class="additional-catalog__item-button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="additional-catalog__item">
+          <h3 class="additional-catalog__item-title">МОЛОК</h3>
+          <p class="additional-catalog__item-subtitle">1 литр</p>
+          <b class="additional-catalog__item-price">100 ₽</b>
+          <button class="additional-catalog__item-button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+        <li class="additional-catalog__item">
+          <h3 class="additional-catalog__item-title">ВИТАМИНЫ</h3>
+          <p class="additional-catalog__item-subtitle">1 упаковка (30 г)</p>
+          <b class="additional-catalog__item-price">300 ₽</b>
+          <button class="additional-catalog__item-button" type="button">ЗАКАЗАТЬ</button>
+        </li>
+      </ul>
+    </div>
+    <svg width="78" height="80" viewBox="0 0 78 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M64.0156 34.7127H14.031C12.2766 34.7127 10.8494 33.2951 10.8494 31.5524V22.0842C10.8494 20.3415 12.2766 18.9233 14.031 18.9233H64.0149C65.7687 18.9233 67.1953 20.3415 67.1953 22.0842V31.553C67.1959 33.2951 65.7693 34.7127 64.0156 34.7127ZM14.031 21.3455C13.6276 21.3455 13.2869 21.684 13.2869 22.0842V31.553C13.2869 31.9599 13.6208 32.2912 14.031 32.2912H64.0149C64.4244 32.2912 64.7578 31.9599 64.7578 31.553V22.0842C64.7578 21.6834 64.4171 21.3455 64.0149 21.3455H14.031Z"
+        fill="white" />
+      <path
+        d="M57.0447 67.1488H20.999C17.6218 67.1488 14.8741 64.4191 14.8741 61.0626V33.5016C14.8741 32.8331 15.4201 32.2905 16.0929 32.2905C16.7656 32.2905 17.3116 32.8331 17.3116 33.5016V61.0626C17.3116 63.0833 18.9661 64.7267 20.999 64.7267H57.0447C59.077 64.7267 60.7308 63.0833 60.7308 61.0626V33.5016C60.7308 32.8331 61.2768 32.2905 61.9496 32.2905C62.6223 32.2905 63.1683 32.8331 63.1683 33.5016V61.0626C63.1683 64.4191 60.4213 67.1488 57.0447 67.1488Z"
+        fill="white" />
+      <path
+        d="M39.0225 67.1488C38.3498 67.1488 37.8038 66.6069 37.8038 65.9378V33.5016C37.8038 32.8331 38.3498 32.2905 39.0225 32.2905C39.6953 32.2905 40.2413 32.8331 40.2413 33.5016V65.9372C40.2413 66.6069 39.6959 67.1488 39.0225 67.1488Z"
+        fill="white" />
+      <path
+        d="M23.8113 21.3414C19.9966 19.2874 18.5731 14.5327 20.6383 10.7415C22.7022 6.95201 27.4864 5.53687 31.303 7.58721C37.117 10.7166 40.2565 19.4472 40.3869 19.8172L38.0877 20.6208C38.0585 20.5384 35.1256 12.3994 30.1433 9.71749C27.5078 8.30175 24.2062 9.27908 22.7821 11.8944C21.3567 14.5121 22.339 17.7941 24.9734 19.2117L23.8113 21.3414Z"
+        fill="white" />
+      <path
+        d="M54.2313 21.3413L53.071 19.2111C54.3477 18.5238 55.2782 17.3848 55.6926 16.0035C56.1063 14.6217 55.9534 13.1624 55.2617 11.895C54.5719 10.6264 53.4263 9.70233 52.0363 9.29117C50.6457 8.88001 49.1783 9.0314 47.9023 9.71747C42.9201 12.3988 39.9871 20.5378 39.9579 20.6202L37.6587 19.8166C37.7891 19.4466 40.928 10.716 46.7421 7.58719C48.5897 6.5929 50.7182 6.3737 52.7316 6.96955C54.7468 7.56479 56.4061 8.90484 57.4061 10.7414C58.4073 12.5774 58.6285 14.6913 58.0289 16.6939C57.4287 18.6958 56.0801 20.3458 54.2313 21.3413Z"
+        fill="white" />
+      <path
+        d="M61.9496 50.9314H16.0929C15.4201 50.9314 14.8741 50.3889 14.8741 49.7204C14.8741 49.0518 15.4201 48.5093 16.0929 48.5093H61.9496C62.6223 48.5093 63.1683 49.0518 63.1683 49.7204C63.1683 50.3889 62.6229 50.9314 61.9496 50.9314Z"
+        fill="white" />
+    </svg>
+    <p class="gift-text">Закажите все<br>
+      и получите чехол для<br>
+      кота в подарок!</p>
   </main>
   <footer class="footer-box footer">
     <section class="map">
@@ -155,7 +275,7 @@
     <div class="footer__logo footer__logo--border">
       <img src="#" alt="cat Energy">
     </div>
-    <div class="social social--border">
+    <div class="footer__social social footer__social--border">
       <ul class="social__list">
         <li class="social__item">
           <a href="#">
