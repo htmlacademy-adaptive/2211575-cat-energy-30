@@ -84,7 +84,7 @@
   display: grid;
   grid-template-columns: repeat(2, 124px);
   gap: 32px;
-  margin-bottom: 36px;
+  margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: repeat(2, 162px);
