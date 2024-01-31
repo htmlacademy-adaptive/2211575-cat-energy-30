@@ -1,79 +1,42 @@
 .social {
-  @include flexbox(center, center);
-  position: relative;
-  gap: 24px;
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  width: $mobile-wrapper;
-  padding: 9px 0;
-
-  @media (max-width: $tablet-width - 1px) {
-    &::before {
-      content: "";
-      position: absolute;
-      top: -15px;
-      width: 280px;
-      height: 1px;
-      background-color: #d9d9d9;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: -8px;
-      width: 280px;
-      height: 1px;
-      background-color: #d9d9d9;
-    }
-  }
+  width: 100%;
+  gap: 24px;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  list-style: none;
 
   @media (min-width: $tablet-width) {
-    width: auto;
-    padding: 0;
+    border: 0;
+    width: 25%;
+    justify-content: flex-end;
   }
 
   @media (min-width: $desktop-width) {
-    grid-column: 2/3;
-  }
-}
-
-.social__item {
-  &:focus-within {
-    outline: 2px solid $color-title-text;
-    border-radius: 2px;
-    outline-offset: 2px;
+    justify-content: center;
   }
 }
 
 .social__link {
-  display: block;
-  width: 28px;
-  height: 22px;
-  transition: background-color 0.2s linear;
+  color: #666666;
 
   &:hover {
-    background-color: $color-basic-green;
-    transition: background-color 0.2s linear;
-  }
-
-  &:focus-visible {
-    position: relative;
-    background-color: $color-basic-green;
+    color: #68b738;
   }
 
   &:active {
+    color: #68b738;
     opacity: 0.3;
-    transition: opacity 0.2s linear;
   }
+}
 
-  &--vk {
-    @include mask-image(url("../../images/icons/stack.svg#footer_icon-social-vk"), 28px 22px, $color-special-grey);
-  }
-
-  &--yt {
-    @include mask-image(url("../../images/icons/stack.svg#footer_icon-social-yt"), 28px 22px, $color-special-grey);
-  }
-
-  &--tg {
-    @include mask-image(url("../../images/icons/stack.svg#footer_icon-social-tg"), 28px 22px, $color-special-grey);
-  }
+.social__icon {
+  width: 30px;
+  height: 20px;
 }
