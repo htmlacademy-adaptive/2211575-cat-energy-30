@@ -298,7 +298,7 @@
 
 .page-form__radio:focus + .page-form__label-radio,
 .page-form__checkbox:focus + .page-form__label-checkbox {
-  outline: 1px dashed #444444;
+  outline: 1px dashed $text-color-secondary;
   outline-offset: 2px;
 }
 
