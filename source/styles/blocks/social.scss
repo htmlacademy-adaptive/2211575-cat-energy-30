@@ -27,11 +27,11 @@
   color: #666666;
 
   &:hover {
-    color: #68b738;
+    color: $color-secondary;
   }
 
   &:active {
-    color: #68b738;
+    color: $color-secondary;
     opacity: 0.3;
   }
 }

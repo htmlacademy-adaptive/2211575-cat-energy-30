@@ -79,16 +79,16 @@
     left: 0;
     width: 24px;
     height: 2px;
-    background-color: #000000;
-    box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
+    background-color: $text-color-primary;
+    box-shadow: 0 8px 0 0 $text-color-primary, 0 16px 0 0 $text-color-primary;
   }
 
   &:active {
     &::before {
-      background-color: #000000;
+      background-color: $text-color-primary;
       box-shadow:
-        0 8px 0 0 #000000,
-        0 16px 0 0 #000000;
+        0 8px 0 0 $text-color-primary,
+        0 16px 0 0 $text-color-primary;
     }
   }
 }
@@ -154,7 +154,7 @@
     left: 0;
     width: 24px;
     height: 2px;
-    background-color: #000000;
+    background-color: $text-color-primary;
   }
 
   &::before {
@@ -168,6 +168,6 @@
 
   &:active::before,
   &:active::after {
-    background-color: #000000;
+    background-color: $text-color-primary;
   }
 }

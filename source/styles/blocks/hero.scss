@@ -2,7 +2,7 @@
   position: relative;
   padding-bottom: 10px;
   min-height: 478px;
-  color: #ffffff;
+  color: $background-color-primary;
   text-align: center;
   background-image:
     image-set(
@@ -11,7 +11,7 @@
       url("../../images/image-background/index-background-mobile@1x.jpg") type("image/jpg") 1x,
       url("../../images/image-background/index-background-mobile@2x.jpg") type("image/jpg") 2x
     ),
-    linear-gradient(180deg, #64a83b 62.4%, #ffffff 62.4%);
+    linear-gradient(180deg, #64a83b 62.4%, $background-color-primary 62.4%);
   background-size: 320px 305px, 100%;
   background-position: top center;
   background-repeat: no-repeat;

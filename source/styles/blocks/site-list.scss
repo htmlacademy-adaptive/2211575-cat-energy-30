@@ -53,7 +53,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 20px;
-  color: #000000;
+  color: $text-color-primary;
   text-decoration: none;
 
   &:hover {
@@ -80,7 +80,7 @@
 .site-list__link--index {
   @media (min-width: $desktop-width) {
     font-size: 20px;
-    color: #ffffff;
+    color: $background-color-primary;
   }
 }
 
@@ -92,7 +92,7 @@
     right: 0;
     bottom: -8px;
     height: 2px;
-    background-color: #68b738;
+    background-color: $color-secondary;
   }
 }
 
@@ -103,6 +103,6 @@
     left: 0;
     right: 0;
     height: 2px;
-    background-color: #ffffff;
+    background-color: $background-color-primary;
   }
 }
