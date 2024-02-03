@@ -29,7 +29,7 @@
 .main-nav__logo-wrapper {
   display: flex;
   align-items: center;
-  padding: 12.5px 0;
+  padding: 12.5px 0 8px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -171,4 +171,3 @@
     background-color: #000000;
   }
 }
-

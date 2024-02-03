@@ -1,6 +1,6 @@
 .catalog-product {
-  margin-left: calc(var(--content-padding-mobile) *-1);
-  margin-right: calc(var(--content-padding-mobile) *-1);
+  margin-left: calc(var(--content-padding-mobile) * -1);
+  margin-right: calc(var(--content-padding-mobile) * -1);
   border-bottom: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
